@@ -15,11 +15,11 @@ function App() {
   }
 
   return (
-    <div className="count-btn">
-      <h1>{count}</h1>
-      <div>
-        <button onClick={increase}>+</button>
+    <div className='container'>
+      <div className="count-btn">
         <button onClick={decrease}>-</button>
+        <h1>{count}</h1>
+        <button onClick={increase}>+</button>
       </div>
     </div>
   );
